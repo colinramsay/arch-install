@@ -3,7 +3,7 @@
     "bootloader": "grub-install",
     "custom-commands": [
     ],
-    "!encryption-password": "supersecret",
+    "!encryption-password": "",
     "filesystem": "ext4",
     "gfx_driver": "VMware / VirtualBox (open-source)",
     "harddrive": {
