@@ -2,12 +2,14 @@
     "audio": "pulseaudio",
     "bootloader": "grub-install",
     "custom-commands": [
+        "git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si",
+        "yay ttf-unifont && yay nerd-fonts-overpass siji-ng && yay ttf-malayalam-font-dyuthi",
+        "usermod -aG autologin"
     ],
     "!encryption-password": "",
     "filesystem": "ext4",
-    "gfx_driver": "VMware / VirtualBox (open-source)",
     "harddrive": {
-        "path": "/dev/nvme0n1"
+        "path": "/dev/nvme0n1p6"
     },
     "hostname": "archduke",
     "kernels": [
@@ -19,8 +21,13 @@
         "NetworkManager": true
     },
     "ntp": true,
-    "packages": ["docker", "git", "wget", "zsh"],
-    "services": ["docker"],
+    "packages": [
+        "base-devel", "git", "wget", "zsh", "signal-desktop", "firefox", "vscode", "dbeaver", "gnome-terminal", "feh",
+        "xclip", "maim",
+        "xorg", "xorg-xinit", "xterm", "i3-gaps", "rofi", "yadm", "dunst", "picom", "polybar", "lightdm",
+        "ranger", "remmina", "remmina-plugin-desktop",
+        "pulseaudio-bluetooth", "bluez", "bluez-utils", "blueman"
+    ],
     "superusers": {
         "colinramsay": {
             "!password": ""
