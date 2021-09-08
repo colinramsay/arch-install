@@ -9,9 +9,6 @@
     ],
     "!encryption-password": "",
     "filesystem": "ext4",
-    "harddrive": {
-        "path": "/dev/nvme0n1p6"
-    },
     "hostname": "archduke",
     "kernels": [
         "linux"
