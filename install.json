@@ -13,6 +13,9 @@
     "kernels": [
         "linux"
     ],
+    "harddrive": {
+        "path": "/dev/nvme0n1p6"
+    },
     "keyboard-language": "gb",
     "mirror-region": "Worldwide",
     "nic": {
