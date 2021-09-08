@@ -4,7 +4,8 @@
     "custom-commands": [
         "git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si",
         "yay ttf-unifont && yay nerd-fonts-overpass siji-ng && yay ttf-malayalam-font-dyuthi",
-        "usermod -aG autologin"
+        "usermod -aG autologin",
+        "yadm clone https://github.com/colinramsay/dotfiles.git"
     ],
     "!encryption-password": "",
     "filesystem": "ext4",
