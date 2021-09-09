@@ -14,7 +14,7 @@
         "linux"
     ],
     "harddrive": {
-        "path": "nvme0n1p6"
+        "path": "nvme0n1"
     },
     "keyboard-language": "gb",
     "mirror-region": "Worldwide",
