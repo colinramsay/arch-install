@@ -1,5 +1,5 @@
 {
-    "audio": "pulseaudio",
+    "audio": "pipewire",
     "bootloader": "grub-install",
     "custom-commands": [
         "git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si",
@@ -26,8 +26,8 @@
         "base-devel", "git", "wget", "zsh", "signal-desktop", "firefox", "vscode", "dbeaver", "gnome-terminal", "feh",
         "xclip", "maim",
         "xorg", "xorg-xinit", "xterm", "i3-gaps", "rofi", "yadm", "dunst", "picom", "polybar", "lightdm",
-        "ranger", "remmina", "remmina-plugin-desktop",
-        "pulseaudio-bluetooth", "bluez", "bluez-utils", "blueman"
+        "remmina", "remmina-plugin-desktop",
+        "thunar", "thunar-volman", "thunar-archive-plugin", "thunar-shares-plugin"
     ],
     "superusers": {
         "colinramsay": {
